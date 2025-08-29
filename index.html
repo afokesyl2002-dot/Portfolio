@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sylvester's Creative Portfolio</title>
+        <link href="assets/css/all.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+    </head>
+    <body>
+        <!-- Navigation -->
+        <div class="flex-container">
+            <div class="logo-container">
+                <img src="assets/img/logo.png" alt="Portfolio Logo" />
+                <div class="logo-text">Sylvester's Portfolio</div>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Hero Section -->
+            <section id="home" class="hero">
+                <div class="hero-overlay"></div>
+
+                <!-- Hero Content Container -->
+                <div class="hero-container">
+                    <div class="hero-content">
+                        <h1>Sylvester's Creative Portfolio</h1>
+                        <p>
+                            Bringing ideas to life through innovative design and
+                            digital experience
+                        </p>
+                        <a href="#gallery" class="cta-button">View My Work</a>
+                    </div>
+
+                    <!-- Hero Form -->
+                    <div class="hero-form">
+                        <div class="form-card">
+                            <h3>Get In Touch</h3>
+                            <form id="heroContactForm">
+                                <div class="form-group">
+                                    <input
+                                        type="text"
+                                        id="heroName"
+                                        name="name"
+                                        placeholder="Your Name"
+                                        required
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <input
+                                        type="email"
+                                        id="heroEmail"
+                                        name="email"
+                                        placeholder="Your Email"
+                                        required
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <textarea
+                                        rows="4"
+                                        id="heroMessage"
+                                        name="message"
+                                        placeholder="Your Message"
+                                        required
+                                    ></textarea>
+                                </div>
+                                <button type="submit" class="submit-btn">
+                                    <i class="fas fa-paper-plane"></i> Send
+                                    Message
+                                </button>
+                            </form>
+                            <div
+                                id="hero-form-status"
+                                style="
+                                    margin-top: 15px;
+                                    padding: 10px;
+                                    border-radius: 8px;
+                                    display: none;
+                                    font-size: 0.9rem;
+                                "
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Background Video -->
+                <video autoplay muted loop playsinline>
+                    <source
+                        src="assets/videos/my-videos.mp4"
+                        type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about">
+                <div class="container">
+                    <h2 class="section-title" style="color: black">About Me</h2>
+                    <div class="about-wrapper">
+                        <div class="about-main">
+                            <div class="about-image-container">
+                                <div class="about-image">
+                                    <img
+                                        src="assets/img/cta.png"
+                                        alt="John's Photo"
+                                    />
+                                    <div class="image-overlay">
+                                        <div class="overlay-text">
+                                            <i class="fas fa-camera"></i>
+                                            <span>Creative Professional</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="floating-elements">
+                                    <div class="floating-item item-1">
+                                        <i class="fas fa-code"></i>
+                                        <span>9+ Years</span>
+                                    </div>
+                                    <div class="floating-item item-2">
+                                        <i class="fas fa-users"></i>
+                                        <span>50+ Clients</span>
+                                    </div>
+                                    <div class="floating-item item-3">
+                                        <i class="fas fa-award"></i>
+                                        <span>15+ Awards</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="about-content">
+                                <div class="about-intro">
+                                    <h3>
+                                        Creative Professional & Digital
+                                        Innovator
+                                    </h3>
+                                    <p class="intro-text">
+                                        Recreating machines out of nothing
+                                    </p>
+                                </div>
+
+                                <div class="about-details">
+                                    <div class="detail-item">
+                                        <div class="detail-icon">
+                                            <i class="fas fa-rocket"></i>
+                                        </div>
+                                        <div class="detail-content">
+                                            <h4>My Journey</h4>
+                                            <p>
+                                                Started with a passion for
+                                                technology, I've
+                                                evolved into a creative
+                                                specializing in
+                                                digital experiences that make a
+                                                difference.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="detail-item">
+                                        <div class="detail-icon">
+                                            <i class="fas fa-lightbulb"></i>
+                                        </div>
+                                        <div class="detail-content">
+                                            <h4>My Approach</h4>
+                                            <p>
+                                                I believe in combining
+                                                technology with strategy,
+                                                ensuring every project not only
+                                                looks amazing but also achieves
+                                                meaningful results.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="detail-item">
+                                        <div class="detail-icon">
+                                            <i class="fas fa-heart"></i>
+                                        </div>
+                                        <div class="detail-content">
+                                            <h4>My Passion</h4>
+                                            <p>
+                                                I am a certified mechanical
+                                                engineer who is willing to
+                                                take his job to the next level                                           
+                                             </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="about-cta">
+                                    <a href="#contact" class="about-btn"
+                                        >Let's Work Together</a
+                                    >
+                                    <a
+                                        href="#gallery"
+                                        class="about-btn-secondary"
+                                        >View My Work</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="skills">
+                <div class="container">
+                    <h2 class="section-title" style="color: black">
+                        My Expertise
+                    </h2>
+                    <p class="section-subtitle">
+                        Transforming ideas into digital reality through diverse
+                        skill sets
+                    </p>
+
+                    <div class="skills-container">
+                        <!-- Technical Skills -->
+                        <div class="skills-category">
+                            <h3 class="category-title">
+                                <i class="fas fa-code"></i>
+                                Technical Skills
+                            </h3>
+                            <div class="skills-list">
+                                <div class="skill-bar-item">
+                                    <div class="skill-info">
+                                        <span class="skill-name"
+                                            >Mechanical Engineering</span
+                                        >
+                                        <span class="skill-percentage"
+                                            >98%</span
+                                        >
+                                    </div>
+                                    <div class="skill-progress">
+                                        <div
+                                            class="skill-fill"
+                                            data-width="98%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Design Skills -->
+                        <div class="skills-category">
+                            <h3 class="category-title">
+                                <i class="fas fa-palette"></i>
+                                 Creativity Skills
+                            </h3>
+                            <div class="skills-list">
+                                <div class="skill-bar-item">
+                                    <div class="skill-info">
+                                        <span class="skill-name"
+                                            >Design</span
+                                        >
+                                        <span class="skill-percentage"
+                                            >95%</span
+                                        >
+                                    </div>
+                                    <div class="skill-progress">
+                                        <div
+                                            class="skill-fill"
+                                            data-width="95%"
+                                        ></div>
+                                    </div>
+                                </div>
+                                <div class="skill-bar-item">
+                                    <div class="skill-info">
+                                        <span class="skill-name"
+                                            >Creativity</span
+                                        >
+                                        <span class="skill-percentage"
+                                            >96%</span
+                                        >
+                                    </div>
+                                    <div class="skill-progress">
+                                        <div
+                                            class="skill-fill"
+                                            data-width="96%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Cards -->
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h4>Mechanical Engineering</h4>
+                            <p>
+                                Recreating your machines form 
+                                useless to useful.
+                            </p>
+                            </p>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h4>Consultation</h4>
+                            <p>
+                                For 
+                            </p>
+                            <div class="service-tags">
+                                <span class="tag">Repairing</span>
+                                <span class="tag">Replacing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Technologies I Use -->
+                    <div class="tech-section">
+                        <h3 class="tech-title">Company I Work With</h3>
+                        <div class="tech-grid">
+                            <div class="tech-item">
+                                <i class="fab fa-cogs"></i>
+                                <span>Premium Steel and Mines ltd</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section -->
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact">
+                <div class="container">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="contact-content">
+                        <div class="contact-info">
+                            <h3>Let's Work Together</h3>
+                            <p>
+                                I'm always excited to take on new projects and
+                                collaborate with amazing people. Whether you
+                                have a damaged equipment or not feel free to reach out 
+                                to me!
+                            </p>
+
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>afokesyl2002@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+234 802 839 1484</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Nigeria, NIG</span>
+                            </div>
+
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#about">Who I Am</a></li>
+                        <li><a href="#skills">What I Do</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Repairing equipments</a></li>
+                        <li><a href="#">Replacing damaged parts</a></li>
+                        <li><a href="#">And many mechanical problems</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Knowledge from School</a></li>
+                        <li><a href="#">Place of work</a></li>
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <p>Stay updated with my latest projects and insights.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2025 Sylvester's Portfolio. All rights reserved. Designed
+                    with ❤️ by Sylvester
+                </p>
+            </div>
+        </footer>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
